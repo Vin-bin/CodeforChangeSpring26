@@ -31,7 +31,7 @@ class Acount:
             n=1.75
         elif self.exercise==2:
             n=2
-        self.BMR=self.targets*n
+        self.BMR=self.targets*n #BMR is the cal remove by existing
 
         #getters
     def gettargets (self):
