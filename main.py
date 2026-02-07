@@ -44,6 +44,7 @@ def makeAccount():
     return _name #returns account
 
 #menu options {to be expanded}
+#import requests
 def menu():
     m=input("-1. switch account\n0. make account\n1. add cal\n2.show main goal\n3. show current calorie amount")
     return m
