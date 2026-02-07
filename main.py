@@ -19,9 +19,9 @@ def makeAccount():
 
     _name=Acount.Acount(_name,_age,_sex,_height,_weight,_maingoal,_exceriselvl)
     a.add(_name)
-    return _name
+    return _name #returns account
 
-
+#menu options {to be expanded}
 def menu():
     m=input("-1. switch account\n0. make account\n1. add cal\n2.show main goal\n3. show current calorie amount")
     return m
@@ -40,6 +40,8 @@ while True:
         _name=makeAccount()
     elif m=="-1":
         te=input("Put the Name of Account")
+        _name=a.getAccount(te)
+
 
 
 
