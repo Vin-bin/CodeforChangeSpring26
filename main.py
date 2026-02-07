@@ -36,6 +36,7 @@ def makeAccount():
 
     _exceriselvl=float(input("Please type your activity level based on the following:\n1.2 is for little or no exercise\n1.4 is for light exercise 1-2 times a week\n1.6 is for moderate exercise 2-3 times/week\n1.75 is for hard exercise 3-5 times/week\n2.0 if you've got a physical job or perform hard exercise 6-7 times/week \n"))
     while (_exceriselvl!=1.2) or (_exceriselvl!=1.4) or (_exceriselvl!=1.6) or (_exceriselvl!=1.75) or (_exceriselvl!=2.0):
+        print("Not the Right Number")
         _exceriselvl = float(input("Please type your activity level based on the following:\n1.2 is for little or no exercise\n1.4 is for light exercise 1-2 times a week\n1.6 is for moderate exercise 2-3 times/week\n1.75 is for hard exercise 3-5 times/week\n2.0 if you've got a physical job or perform hard exercise 6-7 times/week \n"))
 
     _name=Acount.Acount(_name,_age,_sex,_height,_weight,_maingoal,_exceriselvl)
