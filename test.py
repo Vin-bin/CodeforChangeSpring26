@@ -15,7 +15,7 @@ class Acount:
         self.maingoal=maingoal
         self.cal=cal
 
-        #finding MR
+        #finding BMR
         n=1
         if self.sex=="female":
             self.targets=(10*self.weight)+(6.25*self.height)-(5*self.age)-161
