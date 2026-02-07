@@ -1,4 +1,3 @@
-#self, name, age, sex,height, weight,maingoal, excerise, cal=0
 import Acount
 import AccountList
 
