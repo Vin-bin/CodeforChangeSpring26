@@ -57,11 +57,7 @@ class Acount:
 
 
 
-    # def getAccount(self,na_me):
-    #     for i in AccountList:
-    #         if i.name==na_me:
-    #             return i
-    #     print("No such Account Found")
+
 
 
 
