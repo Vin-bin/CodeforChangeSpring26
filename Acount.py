@@ -50,10 +50,15 @@ class Acount:
 
     #checks if cal is less than or greater than goal
     def checkcal(self):
+        print()
         if self.cal<self.maingoal:
-            print("did not achieve main goal")
-        else:
-            print("achived goal")
+            print("Result: UNDER MAIN GOAL :[")
+            print(self.maingoal-self.cal,"calories missing")
+
+        elif self.cal==self.maingoal:
+            print("Result: REACHED MAIN GOAL!")
+        elif self.cal>self.maingoal:
+            print("Result: HIGHER THAN MAIN GOAL")
 
 
 
